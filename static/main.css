@@ -1,0 +1,108 @@
+/* Global styles */
+body {
+  font-family: "Gill Sans", sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: -webkit-linear-gradient(to right, #41668c, #c5291b);
+  background: linear-gradient(to right, #41668c, #c5291b);
+  color: whitesmoke;
+}
+
+/* Header styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: -webkit-linear-gradient(to right, #41668c, #c5291b);
+  background: linear-gradient(to right, #41668c, #c5291b);
+  color: #fff;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Main styles */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Finances section styles */
+.finances {
+  background: -webkit-linear-gradient(to right, #41668c, #c5291b);
+  background: linear-gradient(to right, #41668c, #c5291b);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.totals {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.totals div {
+  flex: 1; /* Equal width for both elements */
+}
+
+.totals p {
+  margin-bottom: 10px;
+}
+
+.add-category {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+categories {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  gap: 10px;
+  margin-bottom: 100px; /* Adjust as needed */
+}
+
+.category-name {
+  /* Additional styles for category name */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+
+.spent-amount {
+  display: flex;
+  justify-content: space-between; /* Ensures the spans are evenly distributed */
+  margin-bottom: 20px; /* Adjust as needed */
+}
+
+.spent {
+  margin-right: auto; /* Aligns spent amount to the left */
+}
+
+.budgeted {
+  margin-left: auto; /* Aligns budget amount to the right */
+}
+.remove-category{
+  /* Additional styles for category name */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  gap: 10px;
+  
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+
+

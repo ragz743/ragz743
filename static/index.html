@@ -1,0 +1,57 @@
+<!--
+Temu Team
+Sai Gubba
+Seth Trimberger
+Marcos Zapien 
+Timo Werronen
+--> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Expense Tracker</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <header>
+    <h1>My Expense Tracker</h1>
+    <div class="user-info">
+      <p>Hi, <span id="user-name"></span></p>
+      <p>Date: <span id="current-date"></span></p>
+      <p>Time: <span id="current-time"></span></p>
+    </div>
+    <!-- Logout button -->
+    <a href="/logout"><button id="logout-button">Logout</button></a>
+  </header>
+  <main>
+    <section class="finances">
+        <h2>Finances This Month</h2>
+        <div class="totals">
+          <div>
+            <p>Total Spent</p>
+            <p id="total-spent"></p>
+          </div>
+          <div>
+            <p>Amount Budgeted</p>
+            <p id="amount-budgeted"></p>
+          </div>
+        </div>
+        <div class="categories">
+          </div>
+          
+        <div class="add-category">
+          <input type="text" id="new-category-name" placeholder="Enter New Category">
+          <input type="number" id="new-category-total-spent" placeholder="Total Spent">
+          <input type="number" id="new-category-budget" placeholder="Budget">
+          <button class="add-category-button" id="add-category-button">Add Category</button>
+        </div>
+        <div class="totals">
+          <p>Total Income: <span id="total-income"> </span></p>
+          <p >Total Difference: <span id="Difference"> </span></p>
+        </div>
+      </section>
+  </main>
+  <script src="main.js" defer></script>
+</body>
+</html>
