@@ -1,3 +1,6 @@
+Work for CrimsonCode Hackathon 2024
+Temu Team: Sai Gubba, Timo Werronen, Seth Trimberger, Marcos Zapien
+
 - 👋 Hi, I’m Sai Gubba. My Github username is @ragz743.
 - 👀 My Washington State University (WSU) email is sairaghav.gubba@wsu.edu
 - I am completing a Bachelor's Degree in Computer Science(BS) and minoring in Business Administration
