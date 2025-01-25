@@ -3,6 +3,7 @@
 - 👀 My LinkedIn profile is at www.linkedin.com/in/sairaghavgubba
 - I am completing a Bachelor's Degree in Computer Science(BS) and minoring in Business Administration(BA)
 - WSU Honors College Student
+- Honor Roll Student since Fall 2023
 
 <!---
 ragz743/ragz743 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
